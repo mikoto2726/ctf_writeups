@@ -1,4 +1,4 @@
 # ctf_writeups
 
-## [angstromctf](https://github.com/s1f10220137/ctf_writeups/tree/main/angstromctf)
+## [angstromctf2024(2024/5/28)](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024)
 
