@@ -31,11 +31,11 @@ ChatGPTは使わないようにしました。
 
 [trip](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bmisc%5Dtrip){:target="_blank"}
 
-[aw man](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bmisc%5Daw_man){:target=#"_brank"}
+[aw man](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bmisc%5Daw_man){:target="_brank"}
 
 ## CRYPTO
-[erm what the enigma](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bcrypto%5Derm_what_the_enigma){:target=#"_brank"}
+[erm what the enigma](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bcrypto%5Derm_what_the_enigma){:target="_brank"}
 
-[philosophy](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bcrypto%5Dphilosophy){:target=#"_brank"}
+[philosophy](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bcrypto%5Dphilosophy){:target="_brank"}
 
 随時更新中
