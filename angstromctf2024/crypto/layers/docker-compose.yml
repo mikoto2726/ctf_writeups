@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - JAIL_ENV_FLAG=actf{593a7043ca58fcac7ec972e3dcf01263}
+    privileged: true
+

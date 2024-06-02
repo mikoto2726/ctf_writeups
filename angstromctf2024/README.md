@@ -21,8 +21,8 @@
 [do you wanna buid a snowman](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/misc/do_you_wanna_build_a_snowman)
 
 ## CRYPTO
-[erm what the enigma](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bcrypto%5Derm_what_the_enigma)
+[erm what the enigma](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/crypto/erm_what_the_enigma)
 
-[philosophy](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bcrypto%5Dphilosophy)
+[philosophy](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/crypto/philosophy)
 
 随時更新中
