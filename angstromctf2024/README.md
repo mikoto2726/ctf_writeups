@@ -10,13 +10,15 @@
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3794748/e6357634-13fe-f158-72de-9b59ecf7d56c.png)
 
 ## MISC
-[kcehc ytinas](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bmisc%5Dkcehc_ytinas)
+[kcehc ytinas](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/misc/kcehc_ytinas)
 
-[putnam](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bmisc%5Dputnam)
+[putnam](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/misc/putnam)
 
-[trip](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bmisc%5Dtrip)
+[trip](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/misc/trip)
 
-[aw man](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bmisc%5Daw_man)
+[aw man](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/misc/aw_man)
+
+[do you wanna buid a snowman](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/misc/do_you_wanna_build_a_snowman)
 
 ## CRYPTO
 [erm what the enigma](https://github.com/mikoto2726/ctf_writeups/tree/main/angstromctf2024/%5Bcrypto%5Derm_what_the_enigma)
