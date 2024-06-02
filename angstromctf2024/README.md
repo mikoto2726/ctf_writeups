@@ -1,19 +1,4 @@
 ## [qiita](https://qiita.com/mikoto2726/items/2a0e40836ded98f7422e)
-
-## 自己紹介
-名前：尊(mikoto)
-Twitter:[mikoto2726](https://x.com/mikoto2726)
-
-python,Linuxの基本的な知識はありますが、CTF関連は初心者です。
-かなり前にCpawCTFをwriteupを皆がら解いた程度で現在は、ほぼ忘れてしまった状態で参加しました。
-
-## 感想
-
-簡単な問題でもGoogleで類似問題を調べることで何とか解く事が出来ました。
-ChatGPTは使わないようにしました。
-だいぶ時間を使ったのでRSA暗号の問題を解けた時が一番嬉しかったです。
-他の方のwriteupを見て解けなかった問題を復習したいです。
-
 ## [angstromctf](https://2024.angstromctf.com/challenges)writeup
 [English writeup](https://qiita.com/mikoto2726/items/b62f9b57cefde01947a4)
 
