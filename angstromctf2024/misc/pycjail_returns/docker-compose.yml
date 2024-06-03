@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app:
+    image: pycjail-returns
+    build: .
+    ports:
+      - "1234:8080"
+    environment:
+      - JAIL_PORT=8080
+      - JAIL_CPU=200
+      - JAIL_MEM=20M
+      - JAIL_PIDS=10
+    deploy:
+      replicas: 1
+    security_opt:
+      - seccomp:unconfined
+    privileged: true
+
