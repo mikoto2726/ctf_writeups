@@ -1,5 +1,5 @@
 # ctf_writeups
-解いたCTFのリポジトリまとめ
+解いたCTFのまとめ
 
 以下はwriteup
 
