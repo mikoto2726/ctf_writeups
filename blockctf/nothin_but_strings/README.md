@@ -7,6 +7,7 @@ file nothin_but_stringz.c.o
 nothin_but_stringz.c.o: LLVM bitcode, wrapper
 ```   
 以下のコマンドでLLVMのバイトコードを読める形式に変換します。   
+llm-disについては[こちら](https://llvm.org/docs/CommandGuide/llvm-dis.html)   
 ```
 llvm-dis nothin_but_stringz.c.o -o nothin_but_stringz.ll
 ```
