@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+23:14:32	235/235	---M--	200	added ('OK')	text/html	date:Tue,%2016%20Mar%202021%2000:39:13%20GMT	http://mercury.picoctf.net:1896/index.html	mercury.picoctf.net_1896/index.html	(from )
+23:14:32	9/-1	---M--	404	error ('Not%20Found')	text/plain		http://mercury.picoctf.net:1896/robots.txt		(from )
+23:14:33	1756/1756	---M--	200	added ('OK')	application/javascript	date:Tue,%2016%20Mar%202021%2000:39:13%20GMT	http://mercury.picoctf.net:1896/G82XCw5CX3.js	mercury.picoctf.net_1896/G82XCw5CX3.js	(from http://mercury.picoctf.net:1896/index.html)

@@ -1,0 +1,14 @@
+HTTrack3.49-5 launched on Sun, 17 Nov 2024 20:34:36 at http://saturn.picoctf.net:52044/
+(httrack http://saturn.picoctf.net:52044/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:35:02	Error: 	"Not Found" (404) at link saturn.picoctf.net:52044/images/maps-and-flags.png (from saturn.picoctf.net:52044/)
+20:35:02	Error: 	"Not Found" (404) at link saturn.picoctf.net:52044/css/owl.video.play.png (from saturn.picoctf.net:52044/css/owl.carousel.min.css)
+20:35:02	Error: 	"Not Found" (404) at link saturn.picoctf.net:52044/images/fevicon.png (from saturn.picoctf.net:52044/css/style.css)
+
+HTTrack Website Copier/3.49-5 mirror complete in 26 seconds : 25 links scanned, 21 files written (686328 bytes overall) [692704 bytes received at 26642 bytes/sec], 12.5 requests per connection
+(3 errors, 0 warnings, 0 messages)
