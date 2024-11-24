@@ -9,4 +9,6 @@
 
 ・[(2024/11/4)Eclipse2Quals](https://github.com/mikoto2726/ctf_writeups/tree/main/eclipse2/misc/git_happens)   
 
-・[(2024/11/16)(BlockCTF)](https://github.com/mikoto2726/ctf_writeups/tree/main/blockctf/nothin_but_strings)
+・[(2024/11/16)(BlockCTF)](https://github.com/mikoto2726/ctf_writeups/tree/main/blockctf/nothin_but_strings)   
+
+・[(2024/11/24)SECCON2024](https://github.com/mikoto2726/ctf_writeups/tree/main/SECCON13)
