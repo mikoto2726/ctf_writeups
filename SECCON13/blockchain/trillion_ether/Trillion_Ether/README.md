@@ -8,9 +8,85 @@
 - exploit3.pyが一番うまく行きそうでしたが逆にコントラクトの残高を増やしてしますことに...
 - exploit3.py実行結果
 ```
+> nc trillion-ether.seccon.games 31337
+1 - launch new instance
+2 - kill instance
+3 - get flag (if isSolved() is true)
+action? 1
 
+== PoW ==
+  sha256("80b733ed808a8c6e" + YOUR_INPUT) must start with 24 zeros in binary representation
+  please run the following command to solve it:
+    python3 <(curl -sSL https://minaminao.github.io/tools/solve-pow.py) 80b733ed808a8c6e 24
+
+  YOUR_INPUT = 7052977
+
+  sha256("80b733ed808a8c6e7052977") = 00000047e08fb8a32995e24b923bc2863fc9cfada4be229fa875f80e07062de2
+  correct
+== END POW ==
+deploying your private blockchain...
+
+your private blockchain has been deployed
+it will automatically terminate in 10 minutes
+here's some useful information
+uuid:               84f69a5a-81c1-4e68-8d35-3a9979283d4c
+rpc endpoint:       http://trillion-ether.seccon.games:8545/84f69a5a-81c1-4e68-8d35-3a9979283d4c
+private key:        a1a96e9d885ce4dd7d3d7b36c159ebcb9aaa75c9b7c6aa705073efe0f1440f76
+your address:       0x2889f2E4407D9Af92F889A549556dC67f1Ab8487
+challenge contract: 0x59f476914F1Ff9186e3149E0cdC5F7d1885595Da
 ```
+```
+> python3 exploit3.py           
+=== TrillionEther CTF Exploit Script ===
 
+Enter the RPC endpoint URL:   http://trillion-ether.seccon.games:8545/84f69a5a-81c1-4e68-8d35-3a9979283d4c
+Enter your private key (input hidden): a1a96e9d885ce4dd7d3d7b36c159ebcb9aaa75c9b7c6aa705073efe0f1440f76
+Enter your Ethereum address: 0x2889f2E4407D9Af92F889A549556dC67f1Ab8487
+Enter the challenge contract address: 0x59f476914F1Ff9186e3149E0cdC5F7d1885595Da
+Connected to RPC endpoint.
+Using account: 0x2889f2E4407D9Af92F889A549556dC67f1Ab8487
+Contract instance created.
+
+=== Starting Exploit ===
+
+--- Step 1: Check Account Balance ---
+Your account balance: 1 ETH
+
+--- Step 2: Check Contract's Balance ---
+Current contract balance: 1000000000000 ETH
+Calculated deposit amount: 0.999 ETH
+
+--- Step 3: Create a Wallet with Deposit ---
+
+Creating wallet 'ExploitWallet' with 0.999 ether.
+Transaction sent: 737ef19e36a2eb6cf981e6231a23c39b21ddb64f413793548ce441d437da9f6b
+Transaction mined in block 3.
+Wallet 'ExploitWallet' created successfully.
+
+--- Wallet Balances ---
+Wallet ID 0 balance: 0 ETH
+-----------------------
+
+
+--- Step 5: Withdrawing 0.999 ether from wallet ID 0 ---
+
+Withdrawing 0.999 ether from wallet ID 0.
+Transaction sent: dfd77247d4c5f5c561e286dafad8a23f529fc3934e3fdaaa290434c33e9cd778
+Transaction mined in block 4.
+Withdrawal from wallet ID 0 successful.
+
+--- Wallet Balances ---
+Wallet ID 0 balance: 0 ETH
+-----------------------
+
+
+--- Step 7: Checking if the contract is solved ---
+Exploit failed. isSolved() is still False.
+
+--- Final Contract Balance ---
+Current contract balance: 1000000000000.999 ETH
+Final contract balance: 1000000000000.999 ETH
+```
 ### 以下はChatGPTと格闘した会話のまとめです
 ---
 
